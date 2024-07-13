@@ -1,13 +1,3 @@
-function day1Tasks() {
-  // calling funtions to perform different tasks of day 1 challenge
-  task1();
-  task2();
-  task3();
-  task4();
-  task5();
-  task6();
-}
-
 //  Activity 1: VARIABLE DECLERATION
 
 //Task 1: Declare avariable using var, assign a number, and log the value to the console.
