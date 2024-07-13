@@ -1,0 +1,40 @@
+body {
+  background-color: #414141;
+  color: #ffffff;
+  padding: 20px;
+}
+
+h1, h2, p {
+  text-align: center;
+}
+
+p {
+  font-size: 30%;
+}
+
+button {
+  background-color: #dac3db;
+  color: #111111;
+  border-radius: 10px;
+  text-align: center;
+  padding-inline: 20px;
+  padding-block: 10px;
+  font-size: 2em;
+  margin-block: 10px;
+  margin-inline: 10px;
+  display: inline-block;
+}
+
+a {
+  color:rgb(251, 240, 243);
+  text-decoration:none;
+}
+
+a:hover {
+  color: rgb(96, 245, 227);
+  text-decoration:underline;
+}
+
+ol> li {
+  margin-block: 10px;
+}
