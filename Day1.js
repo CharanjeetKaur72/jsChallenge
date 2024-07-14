@@ -73,7 +73,7 @@ function task5() {
   let initialValue = 105;
 
   console.log("*** Task 5 ***");
-  console.log("Varaible declared using let keyword");
+  console.log("Variable declared using let keyword");
   console.log(`Initial Value - ${initialValue}`);
 
   initialValue = 200; // value reassigned

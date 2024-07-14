@@ -4,12 +4,14 @@ body {
   padding: 20px;
 }
 
-h1, h2, p {
+h1,
+h2,
+p {
   text-align: center;
 }
 
 p {
-  font-size: 30%;
+  font-size: 50%;
 }
 
 button {
@@ -26,15 +28,15 @@ button {
 }
 
 a {
-  color:rgb(251, 240, 243);
-  text-decoration:none;
+  color: rgb(251, 240, 243);
+  text-decoration: none;
 }
 
 a:hover {
   color: rgb(96, 245, 227);
-  text-decoration:underline;
+  text-decoration: underline;
 }
 
-ol> li {
+ol > li {
   margin-block: 10px;
 }
