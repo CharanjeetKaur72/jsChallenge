@@ -27,16 +27,30 @@ button {
   display: inline-block;
 }
 
-a {
+ol > li > a {
   color: rgb(251, 240, 243);
   text-decoration: none;
 }
 
-a:hover {
+ol > li > a:hover {
   color: rgb(96, 245, 227);
   text-decoration: underline;
 }
 
 ol > li {
   margin-block: 10px;
+}
+
+nav {
+  display: inline-block;
+  margin-block: 50px;
+}
+
+nav > a {
+  margin-inline: 5px;
+  background-color: #c7c1c7;
+  color: #111111;
+  border-radius: 50%;
+  padding: 10px;
+  text-decoration: none;
 }
