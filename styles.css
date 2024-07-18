@@ -43,7 +43,9 @@ ol > li {
 
 nav {
   display: inline-block;
-  margin-block: 50px;
+  margin-block: 20px;
+  margin-inline: auto;
+
 }
 
 nav > a {
@@ -53,4 +55,9 @@ nav > a {
   border-radius: 50%;
   padding: 10px;
   text-decoration: none;
+  text-align: center;
+}
+
+hr {
+  margin-bottom: 20px;
 }
