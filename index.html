@@ -32,6 +32,12 @@
     <script src="./Day7/libraryObject.js"></script>
     <script src="./Day7/objectIteraion.js"></script>
 
+    <script src="./Day8/destructuring.js"></script>
+    <script src="./Day8/defaultParameters.js"></script>
+    <script src="./Day8/enhancedObjectLiteral.js"></script>
+    <script src="./Day8/spreadRest.js"></script>
+    <script src="./Day8/templateLiteral.js"></script>
+
     <link href="./styles.css" rel="stylesheet" />
 
     <title>Document</title>
@@ -52,6 +58,7 @@
       <a href="#day5">Day 5</a>
       <a href="#day6">Day 6</a>
       <a href="#day7">Day 7</a>
+      <a href="#day8">Day 8</a>
     </nav>
     <hr />
 
@@ -270,6 +277,48 @@
           <a onclick="objectIteration()" href="#"
             >Iterate over an object properties using for ... in loop,
             Object.keys/Object.values.
+          </a>
+        </li>
+      </ol>
+    </div>
+
+    <!-- DAY 8 -->
+    <div>
+      <button id="day8">Day 8 : Enhanced Objects Literals</button>
+
+      <ol>
+        <li>
+          <a onclick="templateLiterals()" href="#">
+            Use template literals to create a string that includes variable for
+            a person's name and age. Also create multiline string.
+          </a>
+        </li>
+        <li>
+          <a onclick="destructuring()" href="#"
+            >Use array destructuring to extract first and second element from an
+            array of numbers. Also use object destructuring to extract title and
+            author from a book object.
+          </a>
+        </li>
+        <li>
+          <a onclick="spreadNRest()" href="#"
+            >Use spread operator to create a new array that includes all the
+            elements of an already existing array plus additional elements. Use
+            rest operator in a function to accept an arbitary number of
+            arguments, sum them and return the result.
+          </a>
+        </li>
+        <li>
+          <a onclick="defaultParameters()" href="#"
+            >Write a function to take two parameters and returns their product,
+            with second parameter having a default value of 1.
+          </a>
+        </li>
+        <li>
+          <a onclick="enhancedObject()" href="#"
+            >Use an enhanced object literals to create an object with methods
+            and properties. Create an object with computed property names based
+            on variables.
           </a>
         </li>
       </ol>
