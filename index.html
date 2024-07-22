@@ -38,6 +38,12 @@
     <script src="./Day8/spreadRest.js"></script>
     <script src="./Day8/templateLiteral.js"></script>
 
+    <script src="./Day9/textContentManipulation.js"></script>
+    <script src="./Day9/elementCreation.js"></script>
+    <script src="./Day9/elementRemoval.js"></script>
+    <script src="./Day9/eventHandling.js"></script>
+    <script src="./Day9/attributeModification.js"></script>
+
     <link href="./styles.css" rel="stylesheet" />
 
     <title>Document</title>
@@ -59,6 +65,7 @@
       <a href="#day6">Day 6</a>
       <a href="#day7">Day 7</a>
       <a href="#day8">Day 8</a>
+      <a href="#day8">Day 9</a>
     </nav>
     <hr />
 
@@ -320,6 +327,81 @@
             and properties. Create an object with computed property names based
             on variables.
           </a>
+        </li>
+      </ol>
+    </div>
+
+    <!-- DAY 9 -->
+    <div>
+      <button id="day9">Day 9 : DOM Manipulation</button>
+
+      <ol>
+        <li>
+          <a onclick="textManipulation()" href="#"
+            >Select an HTML element by its ID and change its text content. Also
+            select an HTML element by its class and change its background color.
+          </a>
+          <p id="TextContent">Change my text content</p>
+          <p class="bground">Change my background color</p>
+        </li>
+        <li>
+          <a id="testDay9" onclick="elementCreation()" href="#"
+            >Create a new div element with some text content and append it to
+            the body. Also create a new li element and add to an existing ul
+            list.
+          </a>
+
+          <ul id="testList">
+            <li>List Item 1</li>
+            <li>List Item 2</li>
+            <li>List Item 3</li>
+          </ul>
+        </li>
+        <li>
+          <a onclick="elementRemoval()" href="#"
+            >Select an HTML element and remove it from the DOM. Remove the last
+            child of any specific HTML element
+          </a>
+
+          <p id="removeP" onclick="removeMe()">
+            THIS PARAGRAPH ELEMENT WILL BE REMOVED ON SELECTION
+          </p>
+          <ul id="removeE">
+            <li>List Item 1</li>
+            <li>List Item 2</li>
+            <li>List Item 3</li>
+            <li>List Item 4</li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"
+            >Select an HTML element and change one of its attributes (e.g. src
+            of an img tag). Also add and remove a CSS class to/from an HTML
+            element</a
+          >
+
+          <img
+            id="attrib"
+            src="https://images.pexels.com/photos/26690027/pexels-photo-26690027/free-photo-of-atlantic-puffin-flying-over-rocks.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load"
+            alt=""
+            onclick="changeAttribute()"
+          />
+
+          <button onclick="addImgClass()">Add class to above image</button>
+          <button onclick="removeImgClass()">
+            Remove class from above image
+          </button>
+        </li>
+        <li>
+          <a onclick="eventHandling()" href="#"
+            >Add a click event listener to a button that changes the text
+            content of a paaragraph. Also add a mouse event listener to an
+            element that changes its border color.
+          </a>
+          <button id="testEvent">Change the text content of paragraph</button>
+          <p id="testPara">
+            This text will be changed when you click the button.
+          </p>
         </li>
       </ol>
     </div>

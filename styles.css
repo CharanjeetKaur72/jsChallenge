@@ -45,7 +45,6 @@ nav {
   display: inline-block;
   margin-block: 20px;
   margin-inline: auto;
-
 }
 
 nav > a {
@@ -60,4 +59,34 @@ nav > a {
 
 hr {
   margin-bottom: 20px;
+}
+
+ol > li > p {
+  color: #ffffff;
+  background-color: rgb(108, 103, 159);
+  font-size: medium;
+  padding: 20px;
+  width: 20%;
+  margin-inline: 30px;
+  display: block;
+}
+
+a> div {
+  background-color: rgb(64, 12, 178);
+}
+
+img {
+  width: 20%;
+}
+
+.imgclass {
+  border-radius: 50%;
+}
+
+li > button {
+  padding: 0;
+  margin: 0;
+  background-color: bisque;
+  display: inline-block;
+  font-size: small;
 }
