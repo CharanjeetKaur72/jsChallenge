@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Event Handling</title>
+  </head>
+  <body>
+    <button id="clickE">click me to change text content of paragraph</button>
+    <p id="textE">This text will be changed if you click the button.</p>
+    <hr />
+
+    <div style="border: 2px solid blue; width: 50%">
+      <img
+        id="toggleview"
+        src="https://images.pexels.com/photos/18158591/pexels-photo-18158591/free-photo-of-family-of-elephants-in-savannah.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+        alt="Elephants"
+        style="width: 100%"
+        ;
+      />
+    </div>
+    <hr />
+    <p
+      id="changebg"
+      style="
+        background-color: brown;
+        display: inline-block;
+        color: white;
+        font-size: large;
+      "
+    >
+      On mouseover my background color will change!
+    </p>
+    <hr />
+    <label for="myKey">Check Key press Event in console:</label>
+    <input type="Text" id="myKey" name="myKey" />
+    <p id="pKey">keyup event:</p>
+
+    <hr />
+    <form action="" id="myForm">
+      <p>Employee Details-</p>
+      <label for="fname">First Name:</label>
+      <input
+        type="text"
+        id="fname"
+        name="fname"
+        placeholder="First name"
+        required
+      />
+
+      <label for="lname">Last Name: </label>
+      <input
+        type="text"
+        id="lname"
+        name="lname"
+        placeholder="Last name"
+        required
+      />
+
+      <label for="age">Age:</label>
+      <input
+        type="number"
+        id="age"
+        name="age"
+        placeholder="18"
+        max="65"
+        min="18"
+        required
+      />
+
+      <button type="submit" value="submit">
+        Submit (see form data on console)
+      </button>
+    </form>
+
+    <hr />
+
+    <select id="course" name="course">
+      <option value="Javascript" selected>Javascript</option>
+      <option value="Backend">Backend</option>
+      <option value="Full Stack">Full Stack</option>
+      <option value="React">React</option>
+    </select>
+    <p id="selection">Selected course: Javascript</p>
+
+    <hr />
+
+    <p>
+      Courses list: Click here on any item to see its text content in console -
+    </p>
+    <ol id="plist">
+      <li>Java Script</li>
+      <li>React</li>
+      <li>React Native</li>
+      <li>Flutter</li>
+    </ol>
+
+    <p>
+      List items (Dynamically created): Click here on any item to see its text
+      content in console -
+    </p>
+    <ol id="parentlist">
+      <li>List Item 1</li>
+      <li>List Item 2</li>
+    </ol>
+
+    <button id="addToList">Add New List Item to the above list.</button>
+
+    <script src="./clickEvents.js"></script>
+    <script src="./mouseEvents.js"></script>
+    <script src="./keyboardEvents.js"></script>
+    <script src="./formEvents.js"></script>
+    <script src="./eventDelegation.js"></script>
+  </body>
+</html>
