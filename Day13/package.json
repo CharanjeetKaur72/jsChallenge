@@ -1,0 +1,20 @@
+{
+  "name": "modules",
+  "version": "1.0.0",
+  "description": "Using modules - part of 30 days Javascript challenge",
+  "main": "scriptBasic.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Charanjeet Kaur",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.93.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "lodash": "^4.17.21"
+  },
+  "type": "module"
+}
